@@ -118,7 +118,7 @@ class App extends React.Component{
             break: 5,
             session: 25,
             duringSession: true,
-            secondsRemaining: 3,
+            secondsRemaining: 25*60,
             paused: true,
         };
 
