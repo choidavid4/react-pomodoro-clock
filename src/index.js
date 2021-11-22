@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 
+/*
 class MyTimer extends React.Component{
     constructor(props){
         super(props);
@@ -69,7 +70,7 @@ class MyTimer extends React.Component{
             </div>
         );
     }
-}
+}*/
 
 class TimeLengthControl extends React.Component{
     constructor(props){
@@ -330,12 +331,3 @@ AUDIOS:
 
 */
 
-//Pensar como implementar el start/stop
-/*
-RESET BUTTON
-1. stops the running timer
-2. break-length returns to 5
-3. session length returns to 25
-4. time-left resets to default state (25:00)
-5. stops audio and rewinds to beginning
-*/
